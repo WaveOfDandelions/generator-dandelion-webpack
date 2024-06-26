@@ -9,7 +9,8 @@
 		"start": "echo \"Error: no test specified\" && exit 1",
 		"pre-release": "node ./scripts/release/release.js",
 		"release": "git commit --allow-empty -m \"chore: release 0.0.1\" -m \"Release-As: 0.0.1\" && npm run deploy-release",
-		"deploy-release": "git push origin main"
+		"deploy-release": "git push origin main",
+		"update": "git pull"
 	},
 	"repository": {
 		"type": "git",
