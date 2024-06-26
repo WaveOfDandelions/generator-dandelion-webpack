@@ -1,0 +1,30 @@
+{
+	"name": "generator-dandelion-webpack",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "Webpack Boilerplate with React",
+	"main": "index.js",
+	"scripts": {
+		"build": "echo \"Error: no test specified\" && exit 1",
+		"start": "echo \"Error: no test specified\" && exit 1",
+		"pre-release": "node ./scripts/release/release.js",
+		"release": "git commit --allow-empty -m \"chore: release 0.0.1\" -m \"Release-As: 0.0.1\" && npm run deploy-release",
+		"deploy-release": "git push origin main"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WaveOfDandelions/generator-dandelion-webpack.git"
+	},
+	"keywords": [],
+	"author": "Wave",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/WaveOfDandelions/generator-dandelion-webpack/issues"
+	},
+	"homepage": "https://github.com/WaveOfDandelions/generator-dandelion-webpack#readme",
+	"devDependencies": {
+		"@npmcli/package-json": "^5.2.0",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4"
+	}
+}
