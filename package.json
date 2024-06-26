@@ -5,8 +5,11 @@
 	"description": "Webpack Boilerplate with React",
 	"main": "index.js",
 	"scripts": {
-		"build": "echo \"Error: no test specified\" && exit 1",
 		"start": "echo \"Error: no test specified\" && exit 1",
+		"dev": "echo \"Error: no test specified\" && exit 1",
+		"build": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"commit": "cz",
 		"pre-release": "node ./scripts/release/release.js",
 		"release": "git commit --allow-empty -m \"chore: release 0.0.1\" -m \"Release-As: 0.0.1\" && npm run deploy-release",
 		"deploy-release": "git push origin main",
@@ -25,6 +28,13 @@
 	"homepage": "https://github.com/WaveOfDandelions/generator-dandelion-webpack#readme",
 	"devDependencies": {
 		"@npmcli/package-json": "^5.2.0",
+		"commitizen": "^4.3.0",
+		"eslint": "^9.5.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.7",
+		"prettier": "^3.3.2",
 		"webpack": "^5.92.1",
 		"webpack-cli": "^5.1.4"
 	}
