@@ -1,6 +1,6 @@
 {
 	"name": "generator-dandelion-webpack",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"description": "Webpack Boilerplate with React",
 	"main": "index.js",
